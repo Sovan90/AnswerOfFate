@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>answerOfFate</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <script src="./js/jquery-3.2.1.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="row justify-content-md-center">
+      <h1 id="up">This is The Ball of Truth!</h1>
+        </div>
+    </header>
+<div class="row justify-content-md-center">
+    <p>
+      <em
+        ><q
+          >Tell it the Date, and The Ball will tell your fate! <br />
+          That's the question!
+        </q></em
+      >
+    </p>
+     </div> 
+    <main>
+      <section>
+        <div class="container">
+          <div class="row justify-content-md-center">
+          <img src = "/img/ball.jpg" width=300 md-center>
+          </div>
+          <form id="form" action=""></form>
+            <div class="row justify-content-md-center">
+              <div class="col-md-3">
+                <label for="date">Дата</label>
+                <input
+                  class="form-control"
+                  id="date"
+                  name="date"
+                  placeholder="01.01.2021"
+                  type="date"
+                />
+              </div>
+              <div class="col-md-3">
+                <label for="name">Имя</label>
+                <input
+                  class="form-control"
+                  id="name"
+                  name="date"
+                  placeholder="Имя"
+                  type="text"
+                />
+              </div>
+              <div class="col-md-12 text-center mt-3">
+                <button
+                  id="button_Go"
+                  type="button"
+                  class="btn btn-success"
+                  data-toggle="popover"
+                  title=""
+                  data-content="Now!"
+                  data-original-title="Take anwser!"
+                >
+                  Go!
+                </button>
+              </div>
+              <div class="col-md-6">
+                <div
+                  class="alert alert-success mt-3"
+                  id="success"
+                  style="display: none"
+                >
+                  asd
+                </div>
+                <div
+                  class="alert alert-danger mt-3"
+                  id="error"
+                  style="display: none"
+                >
+                  asd
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- Inputs-->
+      </section>
+
+      <!-- скрипты-->
+      <script src="./js/popper.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <!--Мой скрипт-->
+      <script src="./js/answerOfFate.js"></script>
+    </main>
+
+    <footer>
+      <aside class="col-md-12 text-center mt-5">All rights reserved</aside>
+    </footer>
+
+    <!-- -- комментарий
+em - курсив
+strong - жир
+h1-7 заголовки
+ul - список без нумерации, li - элемент списка
+ol - с нумерацией
+title - (атр)всплывающая инфа, (эл)название сайта
+id="х"- якорь (путь+#х)
+style="color: white" - изменить цвет ссылки
+a target="_blank" - открыть в новом окне
+q - ковычка
+blockquote - блочная цитата
+---->
+  </body>
+</html>
